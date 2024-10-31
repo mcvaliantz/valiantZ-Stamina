@@ -1,0 +1,14 @@
+name: valiantZ-Stamina
+version: '1.0'
+main: space.vishsiri.valiantz_stamina.Stamina
+api-version: '1.20'
+prefix: valiantZStamina
+authors: [ VisherRyz ]
+description: valiantz stamina
+website: vishsiri.space
+softdepend:
+  - PlaceholderAPI
+commands:
+  valiantz-stamina:
+    description: Manage stamina for players
+    usage: /<command> <set|getCurrent|getMax|setMax|add|take> [value]
